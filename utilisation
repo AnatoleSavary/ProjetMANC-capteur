@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/Projet_PING/raspberrypi_TEMPSREEL
+sudo ./video

@@ -1,0 +1,10 @@
+[Service]
+Description=Utilisation camera 
+Type=oneshot
+RemainAfterexit=yes
+ExecStart=/etc/init.d/utilisation.sh
+
+
+[Install]
+WantedBy=multi-user.target
+
